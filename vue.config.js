@@ -1,8 +1,8 @@
 module.exports = {
-  // publicPath: process.env.NODE_ENV === "production" ? "/production-sub-path/" : "/",
-  publicPath: "./",
-  assetsDir: "static",
-  parallel: false,
+  publicPath: process.env.NODE_ENV === "production" ? "/production-sub-path/" : "/",
+  // publicPath: "./",
+  // assetsDir: "static",
+  // parallel: false,
   configureWebpack: {
     //以下三行代码用来解决生成 dist 文件夹后获取不到图片资源问题
     resolve: {
