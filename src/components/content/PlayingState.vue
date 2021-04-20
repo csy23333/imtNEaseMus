@@ -3,7 +3,7 @@
     <!-- 圆盘 -->
     <div class="rotatedisc" @click="showDiscPage">
       <!-- 圆盘图片 -->
-      <img src="../../../public/disc.png" alt="" class="disc" />
+      <img src="@/assets/img/disc.png" alt="" class="disc" />
       <!-- 圆盘里转动的图片 -->
       <album-img class="albumpic"></album-img>
     </div>

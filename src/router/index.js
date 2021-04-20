@@ -63,7 +63,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode: "hash",
+  // mode: "history",
 });
 
 //3.导出
